@@ -1,0 +1,82 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background: #007BFF;
+    padding: 1rem;
+    color: #fff;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.home {
+    background: #f4f4f4;
+}
+
+.about {
+    background: #e9ecef;
+}
+
+.contact {
+    background: #f4f4f4;
+}
+
+/* Contact Button */
+.contact-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background: #0056b3;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
